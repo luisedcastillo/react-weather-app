@@ -7,7 +7,7 @@ const WeaterData = () => (
     /* jshint ignore:start */ // JSX is not supported
     <div>
         <WeatherTemperature></WeatherTemperature>
-        <WeatherInfo></WeatherInfo>
+        <WeatherInfo humidity={80} wind={"10 m/s"}></WeatherInfo>
     </div>
     /* jshint ignore:end */
 );
